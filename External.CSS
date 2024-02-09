@@ -1,0 +1,27 @@
+*{
+    margin: 0% auto;
+    padding: 0%;
+    box-sizing: content-box;
+}
+h1{
+    border: 2px solid black;
+    background-color: aqua;
+    margin:0 200px;
+    padding: 10px;
+}
+.box{
+    border: 2px solid black;
+    margin: 20px 200px 0px 200px;
+    padding: 5px;
+    background-color: yellow;
+}
+.box label{
+    font-size: 115%;
+    text-align: left;
+}
+.box input{
+    margin: 5px 0;
+    text-align: left;
+    size: 0;
+}
+

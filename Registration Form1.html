@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form-1 | HTML</title>
+    <style>
+        *{
+            margin: 0% auto;
+            padding: 0%;
+            box-sizing: content-box;
+        }
+        .box{
+            width: 88%;
+            margin: 0 auto;
+            padding: 5%;
+            background-color: yellow;
+        }
+        .box label{
+            font-size: 115%;
+            text-align: left;
+        }
+        .box input{
+            text-align: left;
+            size: 0;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend align="center">
+            <h1>Registration Form</h1>
+        </legend>
+        <div class="box" align="center">
+        <form action="">
+            <label for=""> <b>First Name:</b></label>
+            <input type="text" placeholder="Write Your First Name"> <br>
+
+            <label for=""><b>Last Name:</b></label>
+            <input type="text" placeholder="Write Your Last Name"> <br>
+ 
+            <label for=""><b>Date of Birth:</b></label>
+            <input type="date"><br>
+
+            <label for=""><b>Gender:</b></label>
+            <input type="radio" name="gender" id=""><label for="ml">Male</label>
+            <input type="radio" name="gender" id=""><label for="fl">Female</label><br>
+
+            <label for=""><b>Number:</b></label>
+            <input type="number" name="" id="" placeholder="Write Your Phone Number"> <br>
+
+            <label for=""><b>E-mail:</b></label>
+            <input type="email" name="" id="" placeholder="Write Your E-mail"><br>
+
+            <label for=""><b>Address:</b></label>
+            <textarea name="" id="" cols="55" rows="7" placeholder="Write Your Address"></textarea><br>
+            
+            <label for=""><b>Select Your Hobby:</b></label><br>
+            <input type="checkbox"><label for="">Reding</label><br>
+            <input type="checkbox"><label for="">Gameing</label><br>
+            <input type="checkbox"><label for="">Writting</label><br>
+            <input type="checkbox"><label for="">Socializing</label><br>
+
+            <label for=""><b>Select The City:</b></label>
+            <input list="City" placeholder="Select Your City">
+            <datalist id="City">
+                <option value="Vadodara">Vadodara</option>
+                <option value="Surat">Surat</option>
+                <option value="Udaipur">Udaipur</option>
+                <option value="Rajkot">Rajkot</option>
+                <option value="Bhavnagar">Bhavnagar</option>
+                <option value="Mumbai"> Mumbai</option>
+                <option value="Delhi">Delhi</option>
+            </datalist><br>
+
+            <label for=""><b>Select Your State:</b></label>
+            <select name="" id="">
+                <option value="">Select</option>
+                <option value="">Gujarat</option>
+                <option value="">Maharastra</option>
+                <option value="">Andhra Pradesh</option>
+                <option value="">UP</option>
+                <option value="">MP</option>
+                <option value="">Bihar</option>
+                <option value="">Rajastan</option>
+            </select><br>
+
+            <input type="submit" name="" id="">
+            <input type="reset" name="" id="">
+        </form>
+    </div>
+    </fieldset>
+</body>
+</html>
